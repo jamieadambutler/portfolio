@@ -51,9 +51,15 @@ const Icon = {
       <path d="M3 6h18M3 12h18M3 18h18" />
     </svg>
   ),
-  close: () => (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
-      <path d="M6 6l12 12M6 18L18 6" />
+  calendar: () => (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="5" width="18" height="16" rx="2" />
+      <path d="M16 3v4M8 3v4M3 10h18" />
+    </svg>
+  ),
+  star: () => (
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.7 7.3L12 17.8 5.7 21.5l1.7-7.3L2 9.5l7.1-.6z" />
     </svg>
   ),
 };
@@ -144,9 +150,14 @@ function Nav() {
             <a key={l.href} href={l.href}>{l.label}</a>
           ))}
         </div>
-        <a className="nav-cta" href={PROFILE.resumeUrl} download>
-          Resume <Icon.download />
-        </a>
+        <div className="nav-cta-group">
+          <a className="nav-cta nav-cta-primary" href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer">
+            <Icon.calendar /> Schedule
+          </a>
+          <a className="nav-cta" href={PROFILE.resumeUrl} download>
+            Resume <Icon.download />
+          </a>
+        </div>
         <button
           className="nav-mobile-toggle"
           aria-label={open ? "Close menu" : "Open menu"}
@@ -159,6 +170,7 @@ function Nav() {
         {links.map((l) => (
           <a key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.label}</a>
         ))}
+        <a href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>Schedule a Meeting</a>
         <a href={PROFILE.resumeUrl} download onClick={() => setOpen(false)}>Download Resume</a>
       </div>
     </nav>
@@ -202,7 +214,10 @@ function Hero() {
       </Reveal>
       <Reveal delay={4}>
         <div className="hero-cta-row">
-          <a href="#projects" className="btn btn-primary">
+          <a href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            Schedule a Meeting <Icon.calendar />
+          </a>
+          <a href="#projects" className="btn btn-ghost">
             View Projects <Icon.arrow />
           </a>
           <a href="#contact" className="btn btn-ghost">
@@ -385,7 +400,12 @@ function Projects() {
       <div className="proj-grid">
         {visible.map((p, i) => (
           <Reveal key={p.id} delay={Math.min(4, (i % 3) + 1)}>
-            <article className="proj-card">
+            <article className={`proj-card${p.featured ? " featured" : ""}`}>
+              {p.featured && (
+                <div className="featured-tag">
+                  <Icon.star /> Featured
+                </div>
+              )}
               <div className="meta">
                 <span>{p.company}</span>
                 <span className="yr">{p.year}</span>
@@ -621,6 +641,7 @@ function Contact() {
     { label: "Phone", value: PROFILE.phone, href: `tel:${PROFILE.phone.replace(/[^\d+]/g, "")}`, icon: <Icon.phone /> },
     { label: "LinkedIn", value: "linkedin.com/in/jamieadambutler", href: PROFILE.links.linkedin, icon: <Icon.linkedin /> },
     { label: "GitHub", value: "github.com/jam1ebutler", href: PROFILE.links.github, icon: <Icon.github /> },
+    { label: "Calendly", value: "calendly.com/jamieadambutler/30min", href: PROFILE.links.calendly, icon: <Icon.calendar /> },
     { label: "Linktree", value: "linktr.ee/jamieadambutler", href: PROFILE.links.linktree, icon: <Icon.link /> },
     { label: "Location", value: PROFILE.location, href: "https://www.google.com/maps/place/Houston,+TX", icon: <Icon.location /> },
   ];
@@ -658,7 +679,10 @@ function Contact() {
 
       <Reveal delay={2}>
         <div style={{ marginTop: 48, display: "flex", gap: 12, flexWrap: "wrap" }}>
-          <a href={PROFILE.resumeUrl} download className="btn btn-primary">
+          <a href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            Schedule a Meeting <Icon.calendar />
+          </a>
+          <a href={PROFILE.resumeUrl} download className="btn btn-ghost">
             Download Resume <Icon.download />
           </a>
           <a href={PROFILE.portfolioUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
