@@ -68,7 +68,7 @@ window.ROLES = [
   {
     id: "eosg",
     company: "EOSG Resources, LLC",
-    title: "Director, IT Services",
+    title: "Director of Information Services",
     period: "Oct 2014 — Apr 2022",
     yearStart: 2014,
     yearEnd: 2022,
@@ -79,7 +79,7 @@ window.ROLES = [
   {
     id: "oreq",
     company: "Oreq Corporation",
-    title: "IT Manager (Contract)",
+    title: "Interim Director of Technology",
     period: "Feb 2013 — Apr 2014",
     yearStart: 2013,
     yearEnd: 2014,
@@ -99,7 +99,7 @@ window.ROLES = [
   {
     id: "casablanca",
     company: "Casablanca Fan Company",
-    title: "IT Manager / Chief Data Analyst",
+    title: "Senior Data Analyst & IT Manager",
     period: "Jul 2005 — Nov 2006",
     yearStart: 2005,
     yearEnd: 2006,
@@ -110,7 +110,7 @@ window.ROLES = [
   {
     id: "anchorblue",
     company: "Anchor Blue Retail Group",
-    title: "Senior Data Analyst (Contract)",
+    title: "Business Analyst",
     period: "Mar 2005 — Jul 2005",
     yearStart: 2005,
     yearEnd: 2005,
@@ -120,7 +120,7 @@ window.ROLES = [
   {
     id: "itt",
     company: "ITT Technical Institute",
-    title: "Network / Systems Administrator",
+    title: "Network & Systems Administrator",
     period: "Dec 2003 — Mar 2005",
     yearStart: 2003,
     yearEnd: 2005,
