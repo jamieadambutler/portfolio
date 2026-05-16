@@ -12,6 +12,7 @@ window.PROFILE = {
     linkedin: "https://linkedin.com/in/jamieadambutler",
     github: "https://github.com/jam1ebutler",
     linktree: "https://linktr.ee/jamieadambutler",
+    calendly: "https://www.calendly.com/jamieadambutler/30min",
   },
   resumeUrl: "public/Jamie-Butler-Resume.docx",
   portfolioUrl: "public/Jamie-Butler-Portfolio.pdf",
@@ -131,14 +132,28 @@ window.ROLES = [
 window.PROJECTS = [
   // ---- Latitude Legal ----
   {
+    id: "lat-sf-platform",
+    company: "Latitude Legal",
+    companyId: "latitude",
+    year: 2025,
+    title: "Bullhorn → Salesforce Enterprise Platform Transformation",
+    categories: ["crm-ats", "ai", "bi", "ops"],
+    featured: true,
+    summary:
+      "Led the largest technology transformation in Latitude Legal's history — a full enterprise migration from Bullhorn to Salesforce consolidating recruiting, business development, contract lifecycle, marketing, and candidate experience into a single unified ecosystem across a 150–500 user environment.",
+    detail:
+      "Architected the Salesforce platform from the ground up — custom objects, schema, profiles, role hierarchy, sharing rules, and governance. Re-mapped every recruiting and BD workflow against future state instead of replicating legacy dysfunction. Owned end-to-end data migration with full integrity validation, built the Experience Cloud candidate portal, integrated Ironclad CLM, HubSpot marketing, Jira, and Slack natively into Salesforce, and engineered AI-powered candidate matching with custom GPT agents. Built RevOps reporting infrastructure, designed change management and adoption programs across every department, and led onshore + nearshore + offshore delivery teams (~40 engineers total) end to end. Apr 2025 – Dec 2025.",
+    stack: ["Salesforce", "Experience Cloud", "Ironclad CLM", "HubSpot", "GPT Agents", "Salesforce Flow", "Jira", "Slack"],
+  },
+  {
     id: "lat-crm",
     company: "Latitude Legal",
     companyId: "latitude",
     year: 2024,
-    title: "CRM & ATS Transformation",
+    title: "CRM & ATS Foundation",
     categories: ["crm-ats", "ai"],
     summary:
-      "Led full enterprise migration from Bullhorn to Salesforce — designing custom objects, recruiting workflows, and Asymbl ATS integration to unify CRM and recruiting on a single platform.",
+      "Initial Bullhorn-to-Salesforce migration phase — designing custom objects, recruiting workflows, and Asymbl ATS integration to unify CRM and recruiting on a single platform.",
     detail:
       "Deployed Experience Cloud candidate portal, job board integrations, AI-powered GPT agents, and an E-mail sync tool for complete client and candidate outreach visibility in Salesforce.",
     stack: ["Salesforce", "Asymbl", "Experience Cloud", "GPT Agents"],
