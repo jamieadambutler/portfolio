@@ -1,16 +1,16 @@
 // Portfolio data — Jamie Butler
 window.PROFILE = {
   name: "Jamie Butler",
-  title: "Digital Transformation Executive",
+  title: "Digital Transformation Leader",
   positioning: "Leading the teams and the architecture that make digital transformation actually land.",
   subtitle:
     "Two decades leading technology teams through transformations that don't stall in the gap between strategy and execution — replacing fragmented systems with unified platforms across CRM, ATS, ERP, HRIS, CLM, cloud, and AI, and building the governance, integration, and human change architecture that lets the work hold.",
   location: "Houston, Texas",
-  email: "jamieadambutler@gmail.com",
+  email: "jamieadambutler@icloud.com",
   phone: "(951) 768-4008",
   links: {
     linkedin: "https://linkedin.com/in/jamieadambutler",
-    github: "https://github.com/jam1ebutler",
+    github: "https://github.com/jamieadambutler",
     linktree: "https://linktr.ee/jamieadambutler",
     calendly: "https://www.calendly.com/jamieadambutler/30min",
   },
@@ -44,7 +44,7 @@ window.ROLES = [
   {
     id: "latitude",
     company: "Latitude Legal",
-    title: "Senior Director, Technology",
+    title: "Senior Director of Technology",
     period: "Apr 2024 — Present",
     yearStart: 2024,
     yearEnd: null,
@@ -56,7 +56,7 @@ window.ROLES = [
   {
     id: "alliedup",
     company: "AlliedUP Cooperative Inc.",
-    title: "Vice President, Technology",
+    title: "Vice President of Technology",
     period: "Apr 2022 — Apr 2024",
     yearStart: 2022,
     yearEnd: 2024,
@@ -84,7 +84,7 @@ window.ROLES = [
     yearStart: 2013,
     yearEnd: 2014,
     summary:
-      "Macola ERP migration connecting manufacturing, procurement, and logistics; custom Crystal Reports and executive dashboards; scaled a remote business development department.",
+      "Macola ERP migration connecting manufacturing, procurement, and logistics; custom Crystal Reports and leadership dashboards; scaled a remote business development department.",
   },
   {
     id: "cannon",
@@ -297,7 +297,7 @@ window.PROJECTS = [
     company: "AlliedUP Cooperative Inc.",
     companyId: "alliedup",
     year: 2023,
-    title: "Executive & Board Reporting",
+    title: "Leadership & Board Reporting",
     categories: ["bi"],
     summary:
       "Built automated KPI reporting pipelines for leadership, board members, and external grant stakeholders — replacing manual data extraction with real-time operational visibility.",
@@ -335,7 +335,7 @@ window.PROJECTS = [
     title: "ERP Migration — NetSuite to Intacct",
     categories: ["erp", "bi"],
     summary:
-      "Directed NetSuite to Sage Intacct migration — implementing automated financial reporting, improving accounting operations, and delivering executive-level dashboards that reduced month-end close complexity.",
+      "Directed NetSuite to Sage Intacct migration — implementing automated financial reporting, improving accounting operations, and delivering leadership-level dashboards that reduced month-end close complexity.",
     stack: ["Sage Intacct", "NetSuite"],
   },
   {
@@ -392,7 +392,7 @@ window.PROJECTS = [
     title: "ERP Implementation — Macola",
     categories: ["erp"],
     summary:
-      "Led full Macola ERP migration — connected manufacturing, procurement, and logistics into a unified reporting system with executive dashboards built from the ground up.",
+      "Led full Macola ERP migration — connected manufacturing, procurement, and logistics into a unified reporting system with leadership dashboards built from the ground up.",
     stack: ["Macola", "Crystal Reports"],
   },
   {
@@ -444,7 +444,7 @@ window.PROJECTS = [
     company: "Casablanca Fan Company",
     companyId: "casablanca",
     year: 2006,
-    title: "Executive Reporting Platform",
+    title: "Leadership Reporting Platform",
     categories: ["bi"],
     summary:
       "Developed complex cross-functional dashboards and custom reports surfacing sales performance, operational data, and business KPIs — presented directly to leadership in regular performance review meetings.",
@@ -519,7 +519,7 @@ window.COMPETENCIES = [
   "Platform Migrations",
   "M&A Systems Integration",
   "Distributed Team Leadership",
-  "Executive Reporting & BI",
+  "Leadership Reporting & BI",
 ];
 
 window.ECOSYSTEM = [
@@ -570,7 +570,7 @@ window.TESTIMONIALS = [
   },
   {
     name: "Dawn Urbach",
-    title: "Financial Executive",
+    title: "Financial Leader",
     relationship: "Dawn managed Jamie directly and later at the same level",
     linkedin: "https://www.linkedin.com/in/dawn-urbach-2b3b7764",
     quote:
