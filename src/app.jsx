@@ -130,7 +130,6 @@ function Nav() {
     { href: "#timeline", label: "Timeline" },
     { href: "#ecosystem", label: "Stack" },
     { href: "#testimonials", label: "Testimonials" },
-    { href: "#writings", label: "Writings" },
     { href: "#contact", label: "Contact" },
   ];
   return (
@@ -142,7 +141,7 @@ function Nav() {
           </div>
           <div className="nav-brand-text">
             <div className="name">Jamie Butler</div>
-            <div className="role">Technology Executive</div>
+            <div className="role">Technology Leader</div>
           </div>
         </a>
         <div className="nav-links">
@@ -200,7 +199,7 @@ function Hero() {
         <div className="hero-meta">
           <div className="item">
             <span className="k">Currently</span>
-            <span className="v">Sr. Director, Technology · Latitude Legal</span>
+            <span className="v">Sr. Director of Technology · Latitude Legal</span>
           </div>
           <div className="item">
             <span className="k">Based</span>
@@ -250,7 +249,7 @@ function About() {
           <Reveal delay={1}><h2 className="h-section">From strategy room to systems architecture.</h2></Reveal>
           <Reveal delay={2}>
             <p>
-              Technology executive operating at both the executive strategy and technical architecture layer — translating business outcomes into systems that scale and deliver measurable performance.
+              Technology leader operating at both the senior strategy and technical architecture layer — translating business outcomes into systems that scale and deliver measurable performance.
             </p>
           </Reveal>
         </div>
@@ -287,7 +286,7 @@ function About() {
             <img src="public/headshot.png" alt="Jamie Butler portrait" />
           </div>
           <div className="portrait-meta">
-            <span className="k">Role</span><span className="v">Sr. Director, Technology</span>
+            <span className="k">Role</span><span className="v">Sr. Director of Technology</span>
             <span className="k">Org</span><span className="v">Latitude Legal</span>
             <span className="k">Tenure</span><span className="v">20+ years</span>
             <span className="k">Base</span><span className="v">Houston, TX</span>
@@ -307,7 +306,7 @@ function Experience() {
           <Reveal><span className="eyebrow">02 / Experience</span></Reveal>
           <Reveal delay={1}><h2 className="h-section">Two decades of technology leadership.</h2></Reveal>
           <Reveal delay={2}>
-            <p>Each role compounded the last — from network admin to executive owning enterprise budget and architecture.</p>
+            <p>Each role compounded the last — from network admin to senior leader owning enterprise budget and architecture.</p>
           </Reveal>
         </div>
         <div className="right">
@@ -403,7 +402,7 @@ function Projects() {
             <article className={`proj-card${p.featured ? " featured" : ""}`}>
               {p.featured && (
                 <div className="featured-tag">
-                  <Icon.star /> Featured
+                  <Icon.star /> Featured Project
                 </div>
               )}
               <div className="meta">
@@ -640,23 +639,18 @@ function Contact() {
     { label: "Email", value: PROFILE.email, href: `mailto:${PROFILE.email}`, icon: <Icon.mail /> },
     { label: "Phone", value: PROFILE.phone, href: `tel:${PROFILE.phone.replace(/[^\d+]/g, "")}`, icon: <Icon.phone /> },
     { label: "LinkedIn", value: "linkedin.com/in/jamieadambutler", href: PROFILE.links.linkedin, icon: <Icon.linkedin /> },
-    { label: "GitHub", value: "github.com/jam1ebutler", href: PROFILE.links.github, icon: <Icon.github /> },
+    { label: "GitHub", value: "github.com/jamieadambutler", href: PROFILE.links.github, icon: <Icon.github /> },
     { label: "Calendly", value: "calendly.com/jamieadambutler/30min", href: PROFILE.links.calendly, icon: <Icon.calendar /> },
-    { label: "Linktree", value: "linktr.ee/jamieadambutler", href: PROFILE.links.linktree, icon: <Icon.link /> },
-    { label: "Location", value: PROFILE.location, href: "https://www.google.com/maps/place/Houston,+TX", icon: <Icon.location /> },
   ];
   return (
     <section id="contact" className="container contact">
-      <Reveal><span className="eyebrow">09 / Contact</span></Reveal>
+      <Reveal><span className="eyebrow">08 / Contact</span></Reveal>
       <Reveal delay={1}>
-        <h2>
-          Let's design the<br />
-          system that <span className="accent">scales your next chapter.</span>
-        </h2>
+        <h2>Contact information.</h2>
       </Reveal>
       <Reveal delay={2}>
         <p style={{ marginTop: 28, maxWidth: 620, color: "var(--fg-2)", fontSize: 17 }}>
-          Advisory, fractional CTO, M&amp;A integration, or speaking — start a conversation.
+          Full-time role, advisory, project, or discussion — start a conversation.
         </p>
       </Reveal>
 
@@ -722,7 +716,6 @@ function App() {
         <Ecosystem />
         <Credentials />
         <Testimonials />
-        <Writings />
         <Contact />
       </main>
       <Footer />
