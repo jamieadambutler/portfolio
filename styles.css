@@ -682,13 +682,11 @@ section + section { border-top: 1px solid var(--border); }
 @media (max-width: 640px) { .proj-card.featured { grid-column: span 1; } }
 
 .featured-tag {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+  align-self: flex-start;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 4px 10px;
+  gap: 6px;
+  padding: 5px 11px;
   border-radius: 999px;
   background: oklch(0.82 0.13 210 / 0.14);
   border: 1px solid oklch(0.55 0.12 210);
@@ -697,6 +695,7 @@ section + section { border-top: 1px solid var(--border); }
   font-size: 10px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: -4px;
 }
 .featured-tag svg { width: 11px; height: 11px; }
 
