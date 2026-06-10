@@ -4,7 +4,7 @@ window.PROFILE = {
   title: "Digital Transformation Leader",
   positioning: "Leading the teams and the architecture that make digital transformation actually land.",
   subtitle:
-    "Two decades leading technology teams through transformations that don't stall in the gap between strategy and execution — replacing fragmented systems with unified platforms across CRM, ATS, ERP, HRIS, CLM, cloud, and AI, and building the governance, integration, and human change architecture that lets the work hold.",
+    "For more than twenty years I've built the technology foundation that lets companies grow without growing their complexity — consolidating fragmented systems onto one connected platform, integrating acquisitions cleanly, taking out redundant vendor spend, and standing up the security and governance that holds up under scrutiny. Strategy in the leadership conversation, hands-on in the architecture.",
   location: "Houston, Texas",
   email: "jamieadambutler@icloud.com",
   phone: "(951) 768-4008",
@@ -14,15 +14,15 @@ window.PROFILE = {
     linktree: "https://linktr.ee/jamieadambutler",
     calendly: "https://scheduler.zoom.us/jamiebutler/30m",
   },
-  resumeUrl: "public/Jamie-Butler-Resume.docx",
+  resumeUrl: "public/Jamie-Butler-Resume.pdf",
   portfolioUrl: "public/Jamie-Butler-Portfolio.pdf",
 };
 
 window.METRICS = [
-  { value: "20+", label: "Years leading enterprise technology" },
-  { value: "$160K+", label: "Annual savings delivered across last two roles" },
-  { value: "500", label: "Users supported in current org (peak)" },
-  { value: "40+", label: "Distributed engineers led across onshore, near, off" },
+  { value: "20+", label: "Years building the technology foundation" },
+  { value: "4", label: "Post-acquisition integrations, unified in 1–3 months each" },
+  { value: "3×", label: "User growth absorbed (150→500) with no added IT headcount" },
+  { value: "90%", label: "Telephony spend cut with Zoom Phone & AI IVR" },
 ];
 
 window.CATEGORIES = [
@@ -49,9 +49,9 @@ window.ROLES = [
     yearStart: 2024,
     yearEnd: null,
     summary:
-      "Leading enterprise technology strategy for a national legal talent organization — modernizing infrastructure, deploying AI, and building the operational foundation for scale across 150–500 users.",
+      "Directing enterprise technology strategy and a 40+ person distributed organization through rapid growth and four post-acquisition integrations — consolidating four disconnected systems onto one Salesforce platform and re-architecting Microsoft 365 as the company scaled from 150 to 500 users.",
     team: "~10 in-house engineers · ~10 nearshore · ~20 offshore",
-    savings: "≈ $100K annual savings via consolidation & tool utilization",
+    savings: "≈ $80K/yr consolidation savings · 90% telephony cut",
   },
   {
     id: "alliedup",
@@ -61,9 +61,9 @@ window.ROLES = [
     yearStart: 2022,
     yearEnd: 2024,
     summary:
-      "Full-stack technology transformation at the nation's first worker-owned healthcare staffing cooperative — owned a $1M+ technology budget, board and grant reporting, and clinical-hiring compliance integrations.",
+      "Owned a $1M+ technology budget end to end at the nation's first worker-owned healthcare staffing cooperative — consolidating recruiting and CRM onto one Bullhorn platform, implementing ADP Workforce Now, and building the real-time board and grant reporting that gave leadership visibility for the first time.",
     team: "8 internal · ~5 nearshore · 10–20 offshore",
-    savings: "≈ $60K annual technology cost reduction",
+    savings: "$1M+ budget owned · reduced spend as the business grew",
   },
   {
     id: "eosg",
@@ -73,7 +73,7 @@ window.ROLES = [
     yearStart: 2014,
     yearEnd: 2022,
     summary:
-      "Built and sustained an integrated enterprise technology ecosystem through eight years of substantial headcount and client growth — aligning investment at every stage to enable the business to scale.",
+      "Sustained an enterprise stack through eight years of growth — designed an end-to-end ATS→payroll→ERP integration pipeline for ~900 active clients, led two ERP migrations that cut month-end close from weeks to hours, and ran an internal MSP advising field-services clients at a CTO level.",
     team: "10 field admins & engineers · ~900 active clients served",
   },
   {
@@ -510,45 +510,43 @@ window.PROJECTS = [
 window.COMPETENCIES = [
   "Digital Transformation",
   "Enterprise Architecture",
-  "AI & Automation Strategy",
-  "CRM / ATS / ERP / HRIS",
-  "Contract Lifecycle (CLM)",
-  "Cybersecurity & Governance",
-  "Cloud Infrastructure",
+  "Platform Consolidation",
+  "M&A Integration",
+  "Cloud & Identity Governance",
+  "AI & Automation",
+  "CRM / ATS / ERP / HRIS / CLM",
+  "Security & Governance",
   "Vendor & MSSP Management",
-  "Platform Migrations",
-  "M&A Systems Integration",
-  "Distributed Team Leadership",
   "Leadership Reporting & BI",
+  "Distributed Team Leadership",
+  "Program & Project Delivery",
 ];
 
 window.ECOSYSTEM = [
   {
     group: "Platforms — CRM / ATS / ERP / HRIS / CLM",
-    items: ["Salesforce", "Bullhorn", "Avionté", "Asymbl", "Ironclad", "NetSuite", "Sage Intacct", "MS Dynamics", "PrismHR", "ADP Workforce Now", "Workday"],
+    items: ["Salesforce", "Bullhorn", "Asymbl", "Avionté", "Ironclad", "NetSuite", "Sage Intacct", "MS Dynamics", "PrismHR", "ADP Workforce Now", "Workday", "HubSpot"],
   },
   {
-    group: "Cloud, AI & Automation",
-    items: ["Microsoft 365", "Azure", "Entra ID", "AWS", "Google Workspace", "Zoom Workplace", "GPT Agents", "LLM Integration", "Power Automate", "Zapier", "AI IVR"],
+    group: "AI, Automation & Cloud",
+    items: ["Claude", "ChatGPT", "GPT Agents", "LLM Integration", "N8N", "Together.AI", "AI IVR", "Power Automate", "Zapier", "Microsoft 365", "Azure", "Entra ID", "AWS", "Google Workspace", "SharePoint", "Teams"],
   },
   {
-    group: "Data, BI, ITSM & Security",
-    items: ["Power BI", "Tableau", "SQL Server", "Crystal Reports", "Canvas", "IBM Cognos", "Jira Cloud", "JSM", "NinjaOne", "ServiceNow", "SharePoint", "Slack", "Sophos", "SentinelOne", "Teams", "MSSP / VPN", "GDPR", "PCI DSS"],
+    group: "Data, ITSM, Security & Compliance",
+    items: ["Power BI", "Tableau", "Bullhorn Canvas", "SQL Server", "Crystal Reports", "IBM Cognos", "Jira Cloud", "JSM", "ServiceNow", "NinjaOne", "SentinelOne", "Sophos", "MSSP / VPN", "ITIL", "SSO/MFA", "Identity Governance", "GDPR", "PCI DSS", "HITRUST", "SOC2", "API Management"],
   },
 ];
 
 window.CERTIFICATIONS = [
-  { name: "Project Management Professional", short: "PMP", issuer: "PMI" },
-  { name: "Artificial Intelligence", short: "AI", issuer: "Google" },
-  { name: "Responsible AI", short: "Resp. AI", issuer: "Google" },
+  { name: "PMP Training Course", short: "PMP", issuer: "Project Management Institute" },
+  { name: "Azure Infrastructure Architect", short: "Azure", issuer: "Microsoft" },
+  { name: "AI Agent Framework", short: "AI Agents", issuer: "Microsoft" },
+  { name: "AI Agent Integration", short: "AI Integ.", issuer: "Microsoft" },
+  { name: "Responsible AI", short: "Resp. AI", issuer: "Microsoft" },
+  { name: "AI Fundamentals", short: "AI Fund.", issuer: "IBM" },
+  { name: "Generative AI", short: "Gen AI", issuer: "Databricks" },
   { name: "Agile with Jira", short: "Agile", issuer: "Coursera" },
-  { name: "Cybersecurity", short: "CySec", issuer: "EL" },
-  { name: "Data Privacy & Protection", short: "GDPR", issuer: "EL" },
-  { name: "PCI DSS Compliance", short: "PCI-DSS", issuer: "EL" },
-  { name: "Strategic Leadership", short: "SL", issuer: "EL" },
-  { name: "Leading Change Management", short: "LCM", issuer: "EL" },
-  { name: "Technical Project Management", short: "TPM", issuer: "ITT" },
-  { name: "MS Active Directory Admin", short: "ADA", issuer: "ITT" },
+  { name: "BI & Data Reporting", short: "BI", issuer: "NetSuite" },
 ];
 
 window.TESTIMONIALS = [
