@@ -153,7 +153,7 @@ function Nav() {
           <a className="nav-cta nav-cta-primary" href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer">
             <Icon.calendar /> Schedule
           </a>
-          <a className="nav-cta" href={PROFILE.resumeUrl} download>
+          <a className="nav-cta" href={PROFILE.resumeUrl} target="_blank" rel="noopener noreferrer">
             Resume <Icon.download />
           </a>
         </div>
@@ -170,7 +170,7 @@ function Nav() {
           <a key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.label}</a>
         ))}
         <a href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>Schedule a Meeting</a>
-        <a href={PROFILE.resumeUrl} download onClick={() => setOpen(false)}>Download Resume</a>
+        <a href={PROFILE.resumeUrl} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>View Resume</a>
       </div>
     </nav>
   );
@@ -246,10 +246,10 @@ function About() {
       <div className="section-head">
         <div className="left">
           <Reveal><span className="eyebrow">01 / About</span></Reveal>
-          <Reveal delay={1}><h2 className="h-section">From strategy room to systems architecture.</h2></Reveal>
+          <Reveal delay={1}><h2 className="h-section">The foundation is the transformation.</h2></Reveal>
           <Reveal delay={2}>
             <p>
-              Technology leader operating at both the senior strategy and technical architecture layer — translating business outcomes into systems that scale and deliver measurable performance.
+              Companies bring me in when managing technology stopped being enough — the systems are fragmented, the processes run on manual effort, and leadership can't see the business clearly. I fix all three at once.
             </p>
           </Reveal>
         </div>
@@ -259,17 +259,17 @@ function About() {
         <div className="about-prose">
           <Reveal>
             <p>
-              I lead end-to-end: <strong>discovery, planning, requirements analysis, stakeholder management,</strong> and ultimately leading the team — staying hands-on through project execution and delivery. The same person setting the roadmap is the one in the implementation review.
+              I work where executive strategy and technical architecture meet. In one conversation I translate a business problem into a technology plan; in the next I'm in the build making sure it ships right. The plan and the build are the same thing — <strong>architecture, not administration.</strong>
             </p>
           </Reveal>
           <Reveal delay={1}>
             <p>
-              Over two decades I've replaced fragmented systems with unified platforms across legal services, healthcare staffing, financial services, manufacturing, retail, and education — building the governance and automation that lets organizations grow without growing complexity.
+              For more than twenty years I've worked the same problem across legal services, healthcare staffing, financial services, manufacturing, and retail: consolidating fragmented systems onto one connected platform, integrating acquisitions cleanly, taking out redundant vendor and license spend, and standing up the security and governance that holds up under scrutiny.
             </p>
           </Reveal>
           <Reveal delay={2}>
             <p>
-              I own enterprise technology budgets, vendor portfolios, and security posture end to end, and lead distributed onshore, nearshore, and offshore teams. The work spans <strong>CRM, ATS, ERP, HRIS, CLM, cloud, and AI</strong> — and the integration architecture that ties them together.
+              What I leave behind isn't a modernized stack — it's an operation that runs differently. I own enterprise technology budgets, vendor portfolios, and security posture end to end, and lead distributed <strong>in-house, nearshore, and offshore</strong> teams across CRM, ATS, ERP, HRIS, CLM, cloud, and AI.
             </p>
           </Reveal>
           <Reveal delay={3}>
@@ -676,8 +676,8 @@ function Contact() {
           <a href={PROFILE.links.calendly} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Schedule a Meeting <Icon.calendar />
           </a>
-          <a href={PROFILE.resumeUrl} download className="btn btn-ghost">
-            Download Resume <Icon.download />
+          <a href={PROFILE.resumeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
+            View Resume <Icon.download />
           </a>
           <a href={PROFILE.portfolioUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
             Project Portfolio PDF <Icon.download />
