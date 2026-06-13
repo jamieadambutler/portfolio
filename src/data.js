@@ -12,7 +12,7 @@ window.PROFILE = {
     linkedin: "https://linkedin.com/in/jamieadambutler",
     github: "https://github.com/jamieadambutler",
     linktree: "https://linktr.ee/jamieadambutler",
-    calendly: "https://scheduler.zoom.us/jamiebutler/30m",
+    calendly: "https://cal.com/jamiebutler/",
   },
   resumeUrl: "public/Jamie-Butler-Resume.pdf",
   portfolioUrl: "public/Jamie-Butler-Portfolio.pdf",
