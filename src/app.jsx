@@ -640,7 +640,7 @@ function Contact() {
     { label: "Phone", value: PROFILE.phone, href: `tel:${PROFILE.phone.replace(/[^\d+]/g, "")}`, icon: <Icon.phone /> },
     { label: "LinkedIn", value: "linkedin.com/in/jamieadambutler", href: PROFILE.links.linkedin, icon: <Icon.linkedin /> },
     { label: "GitHub", value: "github.com/jamieadambutler", href: PROFILE.links.github, icon: <Icon.github /> },
-    { label: "Schedule", value: "scheduler.zoom.us/jamiebutler/30m", href: PROFILE.links.calendly, icon: <Icon.calendar /> },
+    { label: "Schedule", value: "cal.com/jamiebutler", href: PROFILE.links.calendly, icon: <Icon.calendar /> },
   ];
   return (
     <section id="contact" className="container contact">
