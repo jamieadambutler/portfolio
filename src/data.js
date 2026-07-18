@@ -42,10 +42,20 @@ window.CATEGORIES = [
 
 window.ROLES = [
   {
+    id: "appliedsystems",
+    company: "Applied Systems",
+    title: "Vice President, End-User Computing",
+    period: "Jul 2026 — Present",
+    yearStart: 2026,
+    yearEnd: null,
+    summary:
+      "Leading EUC for a global leader in cloud software for the insurance industry, owning the technology the business runs on day to day and the operational foundation beneath it. Lead the Corporate IT organization — service management, collaboration, enterprise applications, systems engineering, and end-user hardware — through a team of directors and their groups. Own the strategy, delivery, and operational excellence of the platforms employees rely on every day. Partner across infrastructure, engineering, and customer experience to keep the seams between functions clean and the environment scaling without added complexity. Help drive enterprise AI adoption where it removes real work across the organization.",
+  },
+  {
     id: "latitude",
     company: "Latitude Legal",
     title: "Senior Director of Technology",
-    period: "Apr 2024 — Present",
+    period: "Apr 2024 — Jun 2026",
     yearStart: 2024,
     yearEnd: null,
     summary:
