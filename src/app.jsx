@@ -199,7 +199,7 @@ function Hero() {
         <div className="hero-meta">
           <div className="item">
             <span className="k">Currently</span>
-            <span className="v">Sr. Director of Technology · Latitude Legal</span>
+            <span className="v">VP, End-User Computing · Applied Systems</span>
           </div>
           <div className="item">
             <span className="k">Based</span>
@@ -286,8 +286,8 @@ function About() {
             <img src="public/headshot.png" alt="Jamie Butler portrait" />
           </div>
           <div className="portrait-meta">
-            <span className="k">Role</span><span className="v">Sr. Director of Technology</span>
-            <span className="k">Org</span><span className="v">Latitude Legal</span>
+            <span className="k">Role</span><span className="v">VP, End-User Computing</span>
+            <span className="k">Org</span><span className="v">Applied Systems</span>
             <span className="k">Tenure</span><span className="v">20+ years</span>
             <span className="k">Base</span><span className="v">Houston, TX</span>
           </div>
